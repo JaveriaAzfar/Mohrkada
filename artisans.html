@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Artisan Profile- MOHRKADA</title>
+        <link rel="icon" type="image/png" href="C:\Users\me\OneDrive\Desktop\Mohrkada\Logo and brand name-02.png"/>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="box-area">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="C:\Users\me\OneDrive\Desktop\Mohrkada\Mohrkada 2.png" width="200px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="products.html" class="navbar-text">Products</a></li>
+                    <li><a href="" class="navbar-text">Artisans</a></li>
+                    <li><a href="" class="navbar-text">About</a></li>
+                    <li><a href="" class="navbar-text">For Vendors</a></li>
+                    <li><a href="" class="navbar-text">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="account.html"><img src="C:\Users\me\OneDrive\Desktop\Mohrkada\icons-account.png" width="30px" height="30px"></a>
+            <a href="cart.html"><img src="C:\Users\me\OneDrive\Desktop\Mohrkada\shopping-cart.png" width="30px" height="30px"></a>
+            <img src="C:\Users\me\OneDrive\Desktop\Mohrkada\logo-menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>         
+    </div>
+
+    
+
+<!---footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download our App for Android and IOS Mobile phones</p>
+                <div class="app-logo-1">
+                    <img src="C:\Users\me\OneDrive\Desktop\Mohrkada\logo-app-store.png" >
+                    <img src="C:\Users\me\OneDrive\Desktop\Mohrkada\logo-playstore.png" >
+                </div> 
+            </div>
+            <div class="footer-col-2">
+                <!-- <img src="C:\Users\me\OneDrive\Desktop\Mohrkada\Logo and brand name-03.png">
+                <p>Download our App for Android and IOS Mobile phones</p> -->
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Return Policy</li>
+                    <li>Terms and Conditions</li>
+                    <li>Join Us</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                    <li>Twitter</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 - MOHRKADA</p>
+    </div>
+</div>
+<!-- -----js for toggle menu----- -->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight ="200px"
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px"
+        }
+    }
+</script>
+</body>
+</html>
